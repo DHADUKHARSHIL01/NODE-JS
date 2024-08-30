@@ -13,6 +13,8 @@
   "author": "Harshil",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "formidable": "^3.5.1",
+    "upper-case": "^2.0.2"
   }
 }

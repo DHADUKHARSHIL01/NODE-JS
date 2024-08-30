@@ -15,6 +15,8 @@
   "dependencies": {
     "express": "^4.19.2",
     "formidable": "^3.5.1",
+    "mongodb": "^6.8.0",
+    "nodemailer": "^6.9.14",
     "upper-case": "^2.0.2"
   }
 }

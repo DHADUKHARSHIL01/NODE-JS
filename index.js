@@ -1,26 +1,24 @@
 //********** /url **********
 
-const { ok } = require("assert");
-const http = require("http");
+// const http = require("http");
 
-http.createServer(function (req, res) {
-    res.writeHead(200, { 'Content-Type': 'text/html' });
-    res.write(req.url);
-    res.end();
-}).listen(5000);
+// http.createServer(function (req, res) {
+//     res.writeHead(200, { 'Content-Type': 'text/html' });
+//     res.write(req.url);
+//     res.end();
+// }).listen(5000);
 
 
 //********** current date and time **********
 
-// const https = require("https");
-// const dt = require("./date")
+// const http = require("http");
+// const date = require('./date')
 
-// https.createServer(function (req, res) {
+// http.createServer(function (req, res) {
 //     res.writeHead(200, { 'Content-Type': 'text/html' });
-//     res.write("the date and time currently" + dt.myDateTime());
+//     res.write("the date and time currently" + date.myDateTime());
 //     res.end();
-// }).listen(5000);
-
+// }).listen(2000);
 
 
 

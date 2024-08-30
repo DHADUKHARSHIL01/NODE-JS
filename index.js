@@ -130,3 +130,49 @@
 //     }
 
 // }).listen(3001)
+
+
+/*********** Node.js  MAIL ************/
+
+
+// const nodemailer = require('nodemailer');
+
+// const transporter = nodemailer.createTransport({
+//     service: 'gmail',
+//     auth: {
+//         user: 'test@gmail.com',
+//         password: 'test@123'
+//     }
+// });
+
+
+// const mailOptions = {
+//     from: 'test@gmail.com',
+//     to: 'user@email.com',
+//     subject: 'Sending Email using Node.js',
+//     text: 'That was easy!',
+// };
+
+
+// transporter.sendMail(mailOptions, function (error, info) {
+//     if (error) {
+//         console.log(error);
+
+//     } else {
+//         console.log('Email sent: ');
+//     }
+// });
+
+
+
+// *************** mogodb **************
+var MongoClient = require('mongodb').MongoClient;
+
+var url = "mongodb://localhost:27017/mydb";
+
+MongoClient.connect(url, function (err, db) {
+    if (err) throw err;
+    console.log("Database created!");
+    db.close();
+});
+

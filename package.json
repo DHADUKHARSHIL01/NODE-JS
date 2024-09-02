@@ -13,9 +13,12 @@
   "author": "Harshil",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "formidable": "^3.5.1",
     "mongodb": "^6.8.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.0",
     "nodemailer": "^6.9.14",
     "upper-case": "^2.0.2"
   }
